@@ -1,0 +1,41 @@
+body {
+    color: #222222;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header Styling */
+
+.main {
+    background-image: url("https://static.pexels.com/photos/128458/pexels-photo-128458.jpeg");
+    padding: 5em 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: block;
+}
+
+.main-intro,
+.main-heading {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0 10px 
+}
+
+.main-intro {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.main-heading {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.intro-face {
+    size: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: block;
+}
+
