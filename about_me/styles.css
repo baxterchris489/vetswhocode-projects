@@ -4,38 +4,62 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-/* Header Styling Testing */
+/* Header Styling */
 
-.main {
+.main 
+{
     background-image: url("https://static.pexels.com/photos/128458/pexels-photo-128458.jpeg");
     padding: 5em 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: block;
 }
 
-.main-intro,
+.main-hello,
 .main-heading {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    margin: 0 10px 
+    padding: 270px, 0;
+    margin: 0 auto;
+    
 }
 
-.main-intro {
-    font-size: 30px;
-    padding-bottom: 20px;
+.main-hello 
+{
+    font-size: 50px;
 }
 
-.main-heading {
+.main-heading 
+{
     font-size: 100px;
     text-transform: uppercase;
+    padding: 10px;
 }
 
-.intro-face {
-    size: auto;
-    border-radius: 50%;
-    border: 1px solid black;
-    position: block;
+.intro-face 
+{
+    display: block;
+    position: relative; 
+    height: 300px;
+    border-radius: 5px;
+    border: 30px solid #ffffff;   
 }
+
+.intro h3 
+{
+    text-align: center;
+}
+/* About Me Styling */
+
+.container
+{
+    text-align: center;
+}
+
+.new-change
+{
+    display: block;
+}
+/* Social Links Styling */
 
