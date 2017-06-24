@@ -1,0 +1,54 @@
+body {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header Styling */
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=hector-martinez-110928.jpg&s=82047f69b23af8fe8f9e135c411b3b52');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #222222;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+  }
+
+.masthead-heading {
+    margin-top: -0.2em;
+    color: white;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.02 em;
+}
+.tagline
+{
+    text-align: center;
+    font-size: 24px;
+    color: 
+}
+/* About Me Styling */
+
+.container
+{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.about-me .new change h3 {
+    color: green;
+}
+
+.new-change
+{
+    display: block;
+}
+/* Social Links Styling */
+
