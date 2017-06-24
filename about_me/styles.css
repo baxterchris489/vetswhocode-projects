@@ -10,9 +10,10 @@ body {
 {
     background-image: url("https://static.pexels.com/photos/128458/pexels-photo-128458.jpeg");
     padding: 5em 0;
+    align-items: center;
+	align-self: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: block;
 }
 
 .main-hello,
@@ -28,6 +29,9 @@ body {
 .main-hello 
 {
     font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px none;
 }
 
 .main-heading 
@@ -35,15 +39,11 @@ body {
     font-size: 100px;
     text-transform: uppercase;
     padding: 10px;
-}
-
-.intro-face 
-{
-    display: block;
-    position: relative; 
-    height: 300px;
-    border-radius: 5px;
-    border: 30px solid #ffffff;   
+    font-weight: 900;
+    line-height: 46px;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+    width: 50%;
 }
 
 .intro h3 
