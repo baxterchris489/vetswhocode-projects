@@ -1,6 +1,8 @@
 body {
     font-size: 14px;
     font-family: Helvetica, sans-serif;
+    color: #414141;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
 }
 
 /* Header Styling */
@@ -26,29 +28,33 @@ body {
     text-align: center;
     letter-spacing: -0.02 em;
 }
-.tagline
-{
+.tagline {
     text-align: center;
     font-size: 24px;
-    color: 
+    color: darkblue;
 }
 /* About Me Styling */
 
-.container
-{
+.container {
     max-width: 38em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
 }
 
-.about-me .new change h3 {
+h3 {
     color: green;
 }
 
-.new-change
-{
-    display: block;
+.new-change {
+    display: inline-block;
 }
+
 /* Social Links Styling */
 
+.social-links {
+    min-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: black;
+}
